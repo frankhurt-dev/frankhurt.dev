@@ -2,7 +2,10 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            setTimeout(()=> {
+                entry.target.classList.add('show')
+            }
+            ,0);
         } else {
             entry.target.classList.remove('show');
         }
