@@ -126,7 +126,7 @@ section {
 
 .email-container {
     position: fixed;
-    bottom: 100px;
+    bottom: 5%;
     right: 50px;
     transform: translateY(0%) rotate(90deg);
     transform-origin: 100% 100%;
