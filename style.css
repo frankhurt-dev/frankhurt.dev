@@ -126,7 +126,7 @@ section {
 
 .email-container {
     position: fixed;
-    top: 90%;
+    top: 93vh;
     right: 50px;
     transform: translateY(0%) rotate(90deg);
     transform-origin: 100% 100%;
@@ -144,7 +144,7 @@ section {
 
 .line {
     position: fixed;
-    top: 95%;
+    top: 95vh;
     right: 27px;
     width: 2px;
     height: calc(100vh - 50%);
