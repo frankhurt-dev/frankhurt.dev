@@ -144,7 +144,7 @@ section {
 
 .line {
     position: fixed;
-    bottom: -930px;
+    top: 96%;
     right: 27px;
     width: 2px;
     height: calc(100vh - 50%);
