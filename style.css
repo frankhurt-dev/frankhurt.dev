@@ -348,16 +348,16 @@ header .image-text .profession{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 
 .sidebar header .image img{
-    width: 40px;
-    border-radius: 6px;
+    width: 60px;
 }
 
 .sidebar header .toggle{
     position: absolute;
-    top: 50%;
+    top: 120%;
     right: -34px;
     transform: translateY(-50%) rotate(180deg);
     height: 40px;
