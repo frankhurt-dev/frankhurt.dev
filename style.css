@@ -180,21 +180,25 @@ a:active {
 }
 
 .name-header {
-    text-align: center;
-    width: 75%;
+    text-align: Left;
+    width: 70%;
     font-size: 3rem;
 }
 
+.hobbies__container {
+    text-align: Left;
+    width: 70%;
+}
+
 .name-subheader {
-    text-align: center;
-    width: 100%;
+    text-align: left;
+    width: 70%;
     font-size: 1.5rem;
 }
 
-.social__container bd-grid{
-    align-items: center;
-    justify-content: center;
-    display: flex;
+.social__container {
+    text-align: Left;
+    width: 70%;
 }
 
 .nav__menu {
