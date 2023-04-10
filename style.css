@@ -32,7 +32,9 @@ body {
 
 section {
     display: grid;
-    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
     align-content: center;
     min-height: 100vh;
 }
@@ -181,13 +183,11 @@ a:active {
 
 .name-header {
     text-align: Left;
-    width: 70%;
     font-size: 3rem;
 }
 
 .hobbies__container {
     text-align: Left;
-    width: 70%;
 }
 
 .name-subheader {
