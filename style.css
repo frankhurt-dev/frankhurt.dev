@@ -202,6 +202,22 @@ a:active {
     width: 70%;
 }
 
+.course__content {
+    text-align: left;
+}
+
+.education__content {
+    text-align: left;
+}
+
+.experience__content {
+    text-align: left;
+}
+
+.skills__data {
+    text-align: left;
+}
+
 .nav__menu {
     position: relative;
     width: 700px;
