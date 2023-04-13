@@ -220,7 +220,7 @@ a:active {
   color: #c3c3c3;
 }
 
-@media screen and (min-width: 760px){
+@media screen and (min-resolution: 461dpi){
   .skill__data {
     text-align: left;
     display: grid;
@@ -610,9 +610,4 @@ body.dark .home .text {
     padding: 0;
     font-size: var(--large-font-size);
   }
-}
-
-/*display il items in 3 columns and a max of 7 rows*/
-@media screen and (min-width: 1000px) {
-  
 }
