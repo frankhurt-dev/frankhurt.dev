@@ -1,24 +1,43 @@
-/*==================== SPLASH SCREEN ====================*/
+// Splash screen
 let intro = document.querySelector(".intro");
 let logoHeader = document.querySelector(".logo__header");
 let logoSpan = document.querySelectorAll(".logoSplash");
 
+// Lock scrolling
 let lockScrolling = true;
 
-    function preventScroll(e) {
-      if (lockScrolling) {
-        e.preventDefault();
-      }
-    }
+// Prevent scrolling
+function preventScroll(e) {
+  if (lockScrolling) {
+    e.preventDefault();
+  }
+}
 
-    document.addEventListener('wheel', preventScroll, { passive: false });
+// Check if the keydown event should be prevented
+function preventKeyScroll(e) {
+  if (
+    lockScrolling &&
+    (e.key === "ArrowUp" ||
+      e.key === "ArrowDown" ||
+      e.key === "PageUp" ||
+      e.key === "PageDown" ||
+      e.key === "Home" ||
+      e.key === "End")
+  ) {
+    e.preventDefault();
+  }
+}
 
-    // Unlock scrolling after 5 seconds (5000 milliseconds)
-    setTimeout(() => {
-      lockScrolling = false;
-      console.log('Scrolling unlocked');
-    }, 2500);
+document.addEventListener("wheel", preventScroll, { passive: false }); // Prevent wheel scrolling
+document.addEventListener("touchmove", preventScroll, { passive: false }); // Prevent touchmove
+document.addEventListener("keydown", preventKeyScroll, { passive: false }); // Prevent arrow keys, Page Up/Down, Home and End keys
 
+// Unlock scrolling after 2.5 seconds
+setTimeout(() => {
+  lockScrolling = false;
+}, 2500);
+
+// Remove the splash screen after 2.5 seconds
 window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     logoSpan.forEach((span, idx) => {
