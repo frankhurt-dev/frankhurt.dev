@@ -303,12 +303,12 @@ a:active {
 
 .sidebar header .image,
 .sidebar .icon {
-  min-width: 60px;
+  min-width: 64px;
   border-radius: 6px;
 }
 
 .sidebar .icon {
-  min-width: 60px;
+  min-width: 64px;
   border-radius: 6px;
   height: 100%;
   display: flex;
