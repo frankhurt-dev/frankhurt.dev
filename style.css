@@ -216,7 +216,11 @@ a:active {
   text-align: left;
 }
 
-@media screen and (min-width: 800px){
+.experience__company {
+  color: #c3c3c3;
+}
+
+@media screen and (min-width: 390px){
   .skill__data {
     text-align: left;
     display: grid;
@@ -247,6 +251,14 @@ a:active {
   font-size: var(--medium-font-size);
   align-content: center;
   vertical-align: middle;
+}
+
+.course__institute {
+  color: #c3c3c3;
+}
+
+.education__studies {
+  color: #c3c3c3;
 }
 
 .nav__menu {
