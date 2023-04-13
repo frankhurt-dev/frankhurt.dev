@@ -7,6 +7,8 @@
   --primary-color-light: #f6f5ff;
   --toggle-color: #ddd;
   --text-color: #fff;
+  --large-font-size: 3rem;
+  --medium-font-size: 1.5rem;
 
   /* ====== Transition ====== */
   --tran-03: all 0.2s ease;
@@ -214,8 +216,29 @@ a:active {
   text-align: left;
 }
 
-.skills__data {
+.skill__data {
   text-align: left;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1rem;
+  column-rule: 1px solid #fff;
+}
+
+.skills__circle {
+  justify-content: center;
+  align-items: center;
+  line-height: 3rem;
+  margin-left: 0rem;
+}
+
+.skill__icon {
+  margin: 0;
+  padding: 0;
+  font-size: var(--medium-font-size);
+  align-content: center;
+  vertical-align: middle;
 }
 
 .nav__menu {
@@ -540,4 +563,36 @@ body.dark .switch::before {
 }
 body.dark .home .text {
   color: var(--text-color);
+}
+
+/* Media queries for desktop devices */
+@media screen and (min-width: 1000px) {
+  .skill__data{
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .skill__name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .skill__icon{
+    margin: 0;
+    padding: 0;
+    font-size: var(--large-font-size);
+  }
+}
+
+/*display il items in 3 columns and a max of 7 rows*/
+@media screen and (min-width: 1000px) {
+  
 }
