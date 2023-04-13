@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 23,
+      value: 20,
       density: {
         enable: true,
         value_area: 400,
@@ -75,10 +75,10 @@ particlesJS("particles-js", {
         mode: "grab",
       },
       onclick: {
-        enable: true,
+        enable: false,
         mode: "repulse",
       },
-      resize: true,
+      resize: false,
     },
     modes: {
       grab: {
