@@ -17,7 +17,7 @@ let lockScrolling = true;
     setTimeout(() => {
       lockScrolling = false;
       console.log('Scrolling unlocked');
-    }, 3000);
+    }, 2500);
 
 window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
