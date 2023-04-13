@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Frankhurt</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frankhurt.dev</title>
 
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
-        <!--============ CSS ==============-->
-        <link rel="stylesheet" href="style.css">
-        
-        <!--========== SCROLL JS ==========-->
-        <script defer src="scroll.js"></script>
-        
-        <!--========== SPLASH JS ==========
+    <!--============ CSS ==============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--========== SCROLL JS ==========-->
+    <script defer src="scroll.js"></script>
+
+    <!--========== SPLASH JS ==========
         <div class="intro">
             <h1 class="logo__header">
                 <span class="logoSplash">Francisco</span> <span class="logoSplash">Hurtado</span>
@@ -23,457 +26,561 @@
         </div>
 
         <script src="splash.js"></script>-->
-    </head>
-    <body>
+  </head>
+  <body>
+    <div id="main">
+      <nav class="sidebar close">
+        <header>
+          <div class="image-text">
+            <span class="image">
+              <img src="avatar.png" style="border-radius: 50%" alt="" />
+            </span>
 
-        <div id="main">
+            <div class="text logo-text">
+              <span class="name">frankhurt.dev</span>
+              <span class="profession">Engineer<br />Coder<br />MBA</span>
+            </div>
+          </div>
 
-            <nav class="sidebar close">
-                <header>
-                    <div class="image-text">
-                        <span class="image">
-                            <img src="avatar.png" style="border-radius: 50%;" alt="">
-                        </span>
-        
-                        <div class="text logo-text">
-                            <span class="name">frankhurt.dev</span>
-                            <span class="profession">Engineer<br>Coder<br>MBA</span>
-                        </div>
-                    </div>
-        
-                    <i class='bx bx-chevron-right toggle'></i>
-                </header>
-        
-                <div class="menu-bar">
-                    <div class="menu">
-        
-                        <ul class="menu-links">
-                            <li class="nav-link">
-                                <a href="#">
-                                    <i class='bx bx-user-circle icon' ></i>
-                                    <span class="text nav-text">About</span>
-                                </a>
-                            </li>
+          <i class="bx bx-chevron-right toggle"></i>
+        </header>
 
-                            <li class="nav-link">
-                                <a href="#">
-                                    <i class='bx bx-brain icon' ></i>
-                                    <span class="text nav-text">Skills</span>
-                                </a>
-                            </li>
-        
-                            <li class="nav-link">
-                                <a href="#">
-                                    <i class='bx bx-briefcase-alt icon'></i>
-                                    <span class="text nav-text">Experience</span>
-                                </a>
-                            </li>
-        
-                            <li class="nav-link">
-                                <a href="#">
-                                    <i class='bx bxs-pen icon' ></i>
-                                    <span class="text nav-text">Education</span>
-                                </a>
-                            </li>
-        
-                            <li class="nav-link">
-                                <a href="#">
-                                    <i class='bx bx-award icon' ></i>
-                                    <span class="text nav-text">Certifications</span>
-                                </a>
-                            </li>
-        
-                        </ul>
-                    </div>
-                </div>
-        
-            </nav>
-        
-            <script>
-                const body = document.querySelector('body'),
-                sidebar = body.querySelector('nav'),
-                toggle = body.querySelector(".toggle"),
-                searchBtn = body.querySelector(".search-box"),
-                modeSwitch = body.querySelector(".toggle-switch"),
-                modeText = body.querySelector(".mode-text");
-        
-                toggle.addEventListener("click" , () =>{
-                    sidebar.classList.toggle("close");
-                })
-                
-                searchBtn.addEventListener("click" , () =>{
-                    sidebar.classList.remove("close");
-                })
-                
-                modeSwitch.addEventListener("click" , () =>{
-                    body.classList.toggle("dark");
-                    
-                    if(body.classList.contains("dark")){
-                        modeText.innerText = "Light mode";
-                    }else{
-                        modeText.innerText = "Dark mode";
-                        
-                    }
-                });
-            </script>
-            
-            <section class="hidden">
-                <!--<img class="profile-pic" src="pic.png" style="max-height: 300px;">-->
-                <h1 class="name-header">Francisco</h1>
-                <h1 class="name-header">Hurtado</h1>
-                <br>
-                <p style="line-height: 20px">Hello! I'm Francisco, an Electronics Engineer, Digital Program/Channel Manager, and Coder from Colombia 🇨🇴 with a passion for Product Development and Data Analysis<br><br>
-                I have a keen interest in AI, Marketing, and Software that motivates me to stay up-to-date with industry trends and continuously seek opportunities to innovate<br><br>
-                I'm fluent in English 🇺🇸 and have an elementary level in Japanese 🇯🇵<br>
-                </p>
-                <!--<div class="hobbies__container">
-                    <div class="hobby__item">
-                        <i class='bx bx-joystick social__icon' ></i>
-                        <i class='bx bx-code social__icon' ></i>
-                        <a href="https://www.goodreads.com/user/show/153899373-frvnkhvrt" target="_blank" class="social__link"><i class='bx bx-glasses-alt social__icon' ></i></a><br>
-                        <i class='bx bx-run social__icon' ></i>
-                        <i class='bx bx-movie-play social__icon' ></i>
-                        <i class='bx bx-headphone social__icon' ></i>  
-                    </div>
-                </div>-->
-                <br>
-                <h2 class="name-subheader">Get in touch</h2>
-                <div class="social__container">
-                    <div class="social__item">
-                        <a href="https://www.linkedin.com/in/franciscoahm" target="_blank"  class="social__link"><i class='bx bxl-linkedin social__icon'></i></a>
-                        <a href="https://wa.me/573102098703" target="_blank" class="social__link"><i class='bx bxl-whatsapp social__icon'></i></a>
-                        <a href="https://www.instagram.com/frvnkhvrt" target="_blank" class="social__link"><i class='bx bxl-instagram social__icon'></i></a>
-                    </div>
-                </div>              
-                
-            </section>
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-user-circle icon"></i>
+                  <span class="text nav-text">About</span>
+                </a>
+              </li>
 
-            <section class="hidden" style="text-align: center;">
-                <i class='bx bx-brain social__icon' ></i>
-                <h1 class="section-title">Skills</h1><br>
-                <div class="skills__content bd-grid">
-                    <ul class="skills__data">  
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>HTML5 <i class='bx bxl-html5 icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>CSS3 <i class='bx bxl-css3 icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>SQL <i class='bx bx-data icon'></i>
-                        </ul>                                
-                    </ul>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-brain icon"></i>
+                  <span class="text nav-text">Skills</span>
+                </a>
+              </li>
 
-                    <ul class="skills__data">
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Python <i class='bx bxl-python icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>C++ <i class='bx bxl-c-plus-plus icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>MATLAB <i class='bx bx-code-curly icon'></i>
-                        </ul>
-                    </ul>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-briefcase-alt icon"></i>
+                  <span class="text nav-text">Experience</span>
+                </a>
+              </li>
 
-                    <ul class="skills__data">
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>UX | UI <i class='bx bx-window-alt icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Management <i class='bx bx-check-circle icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>SCRUM <i class='bx bx-run icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Kanban <i class='bx bx-task icon'></i>
-                        </ul>
-                    </ul>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bxs-pen icon"></i>
+                  <span class="text nav-text">Education</span>
+                </a>
+              </li>
 
-                    <ul class="skills__data">
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Machine Learning <i class='bx bxs-brain icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Digital Marketing <i class='bx bx-user-voice icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Data Analysis <i class='bx bx-bar-chart icon'></i>
-                        </ul>
-                        <ul class="skills__name">
-                            <span class="skills__circle"></span>Entrepreneurship <i class='bx bx-briefcase-alt-2 icon'></i>
-                        </ul>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="hidden" style="text-align: center;">
-                <i class='bx bx-briefcase-alt social__icon'></i>
-                <h1 class="section-title">Experience</h1><br>
-                <div class="experience__container bd-grid">
-                    <div class="experience__content">
-                        <div class="experience__time">
-                            <span class="experience__rounder"></span>
-                            <span class="experience__line"></span>
-                        </div>
-
-                        <div class="experience__data bd-grid">
-                              <h3 class="experience__title">Digital Channel Marketing Manager</h3>
-                              <span class="experience__company">2017 - 2023 | Schneider Electric</span><br><br>
-                              <p class="experience__description">• Define the annual marketing plan, buyer persona, customer journey, and communication strategy for the electrician channel.<br>
-                                • Develop the electrician channel program aiming to foster customer loyalty.<br>
-                                • Plan, lead, and monitor recruitment and engagement campaigns for social media marketing, email marketing, and SEM.<br>
-                                • Validate key performance indicators.<br>
-                                • Assist in the creation of new content, press releases, and promotional material.<br>
-                                • Report results and present plans to local and global stakeholders.<br>
-                                • Control of the budget while achieving marketing objectives.</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="experience__content">
-                        <div class="experience__time">
-                            <span class="experience__rounder"></span>
-                            <span class="experience__line"></span>
-                        </div>
-
-                        <div class="experience__data bd-grid">
-                              <h3 class="experience__title">PRM Champion</h3>
-                              <span class="experience__company">2017 - 2020 | Schneider Electric</span><br><br>
-                              <p class="experience__description">
-                                • Deployed mySchneider website and app in the Andean region.<br>
-                                • Managed the electrician channel program content and updated the program website (Salesforce CRM, HTML, CSS).<br>
-                                • Created visual content for social and email marketing (Photoshop, Premiere).<br>
-                                • Managed the customer databases.<br>
-                                • Responsible of tracking KPIs.<br>
-                                • Launched new services for the mySchneider ecosystem (mySchneider opportunities, chat, product selector, online courses).</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="experience__content">
-                        <div class="experience__time">
-                            <span class="experience__rounder"></span>
-                            <!--<span class="experience__line"></span>-->
-                        </div>
-
-                        <div class="experience__data bd-grid">
-                              <h3 class="experience__title">APC Technical Support Engineer South America</h3>
-                              <span class="experience__company">2014 - 2017 | Schneider Electric</span><br><br>
-                              <p class="experience__description">
-                                • Provided technical and commercial support for IT enterprise and commercial partners in South America (except Brazil).<br>
-                                • Applied case resolution and troubleshooting on a daily basis.<br>
-                                • In charge of the authorization for replacement or repairment of returned merchandise (Oracle, SAP).<br>
-                                • Published over 100 FAQs about IT products and solutions.<br>
-                                • Captured over 1M EUR in leads.<br>
-                                • Created reports and dashboards to track assistance and schedule adherence of the entire team.<br>
-                                • Lead the deployment of bFS (field services module) in Salesforce bFO for the customer care center agent environment.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="hidden" style="text-align: center;">
-                <i class='bx bx-pen social__icon' ></i>
-                <h1 class="section-title">Education</h1>
-                
-                <div class="education__container bd-grid">
-                    <div class="education__content">
-                        <div class="education__time">
-                            <span class="education__rounder"></span>
-                            <span class="education__line"></span>
-                        </div>
-                        <br>
-                        <div class="education__data bd-grid">
-                              <h3 class="education__title">Bachelor in Electronics Engineering</h3>
-                              <span class="education__studies">Universidad Nacional Experimental del Táchira<br></span>
-                              <span class="education__year">2006 - 2012</span>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="education__content">
-                        <div class="education__time">
-                            <span class="education__rounder"></span>
-                            <span class="education__line"></span>
-                        </div>
-
-                        <div class="education__data bd-grid">
-                              <h3 class="education__title">Master in Industrial Automation</h3>
-                              <span class="education__studies">Universidad Nacional de Colombia<br></span>
-                              <span class="education__year">2015 - 2016 (Dropped)</span>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="education__content">
-                        <div class="education__time">
-                            <span class="education__rounder"></span>
-                            <!--<span class="education__line"></span>-->
-                        </div>
-
-                        <div class="education__data bd-grid">
-                              <h3 class="education__title">Master in Business Administration - MBA</h3>
-                              <span class="education__studies">EUDE European Business School<br></span>
-                              <span class="education__year">2021 - 2022</span>
-                        </div>
-                    </div>
-                </div>
-                
-            </section>
-
-            <section class="hidden" style="text-align: center;">
-                <i class='bx bx-award social__icon' ></i>
-                <h1 class="section-title">Certifications</h1><br>
-                <div class="course__container bd-grid">
-                    <div class="course__content">
-                        <h3 class="course__title">Google Analytics Individual Qualification</h3>
-                        <p class="course__institute">Google</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Google Ads Search Certification</h3>
-                        <p class="course__institute">Google</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Google Ads Search</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Google Ads Display</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Data Analytics Certificate - Foundations: Data, Data, Everywhere</h3>
-                        <p class="course__institute">Google</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Data Analytics Certificate - Ask Questions to Make Data-Driven Decisions</h3>
-                        <p class="course__institute">Google</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Data Analytics Certificate - Prepare Data for Exploration</h3>
-                        <p class="course__institute">Google</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Scrum Fundamentals Certified</h3>
-                        <p class="course__institute">SCRUMstudy</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Introduction to Data and Data Science</h3>
-                        <p class="course__institute">365 Data Science</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Statistics</h3>
-                        <p class="course__institute">365 Data Science</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Building a 3-Statement Model in Excel</h3>
-                        <p class="course__institute">365 Data Science</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Game Theory with Python</h3>
-                        <p class="course__institute">Coursera</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Curso Profesional de Git y GitHub</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Terminal y Línea de Comandos</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Entorno de Trabajo con Jupyter Notebooks y Anaconda</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Análisis de Negocios para Ciencia de Datos</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Creatividad e Innovación</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Business Model Canvas</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Crear un MVP sin Código</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Encontrar y Evaluar Ideas para Emprender</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Desarrollar Habilidades de Emprendimiento</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Productividad y Manejo del Tiempo para Startups</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Introducción al Mundo de las Startups</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-
-                    <div class="course__content">
-                        <h3 class="course__title">Filosofía para Managers</h3>
-                        <p class="course__institute">Platzi</p><br>
-                    </div>
-                </div>
-            </section>
-
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-award icon"></i>
+                  <span class="text nav-text">Certifications</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <!--<div class="email-container">
+      <script>
+        const body = document.querySelector("body"),
+          sidebar = body.querySelector("nav"),
+          toggle = body.querySelector(".toggle"),
+          searchBtn = body.querySelector(".search-box"),
+          modeSwitch = body.querySelector(".toggle-switch"),
+          modeText = body.querySelector(".mode-text");
+
+        toggle.addEventListener("click", () => {
+          sidebar.classList.toggle("close");
+        });
+
+        searchBtn.addEventListener("click", () => {
+          sidebar.classList.remove("close");
+        });
+
+        modeSwitch.addEventListener("click", () => {
+          body.classList.toggle("dark");
+
+          if (body.classList.contains("dark")) {
+            modeText.innerText = "Light mode";
+          } else {
+            modeText.innerText = "Dark mode";
+          }
+        });
+      </script>
+
+      <section class="hidden">
+        <h1 class="name-header">Francisco</h1>
+        <h1 class="name-header">Hurtado</h1>
+        <br />
+        <p style="line-height: 20px">
+          Hello! I'm Francisco, an Electronics Engineer, Digital Program/Channel
+          Manager, and Coder from Colombia 🇨🇴 with a passion for Product
+          Development and Data Analysis<br /><br />
+          I have a keen interest in AI, Marketing, and Software that motivates
+          me to stay up-to-date with industry trends and continuously seek
+          opportunities to innovate<br /><br />
+          I'm fluent in English 🇺🇸 and have an elementary level in Japanese
+          🇯🇵<br />
+        </p>
+        <br />
+        <h2 class="name-subheader">Get in touch</h2>
+        <div class="social__container">
+          <div class="social__item">
+            <a
+              href="https://www.linkedin.com/in/franciscoahm"
+              target="_blank"
+              class="social__link"
+              ><i class="bx bxl-linkedin social__icon"></i
+            ></a>
+            <a
+              href="https://wa.me/573102098703"
+              target="_blank"
+              class="social__link"
+              ><i class="bx bxl-whatsapp social__icon"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/frvnkhvrt"
+              target="_blank"
+              class="social__link"
+              ><i class="bx bxl-instagram social__icon"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="hidden" style="text-align: center">
+        <i class="bx bx-brain social__icon"></i>
+        <h1 class="section-title">Skills</h1>
+        <br />
+        <div class="skills__content bd-grid">
+          <ul class="skills__data">
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >HTML5
+              <i class="bx bxl-html5 icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >CSS3
+              <i class="bx bxl-css3 icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >SQL
+              <i class="bx bx-data icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Python
+              <i class="bx bxl-python icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >C++
+              <i class="bx bxl-c-plus-plus icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >MATLAB
+              <i class="bx bx-code-curly icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >UX | UI
+              <i class="bx bx-window-alt icon"></i>
+            </ul>
+
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >SCRUM
+              <i class="bx bx-run icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Kanban
+              <i class="bx bx-task icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Machine Learning
+              <i class="bx bxs-brain icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Digital Marketing
+              <i class="bx bx-user-voice icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Data Analysis
+              <i class="bx bx-bar-chart icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Management
+              <i class="bx bx-check-circle icon"></i>
+            </ul>
+            <ul class="skills__name">
+              <span class="skills__circle"></span
+              >Entrepreneurship
+              <i class="bx bx-briefcase-alt-2 icon"></i>
+            </ul>
+          </ul>
+        </div>
+      </section>
+
+      <section class="hidden" style="text-align: center">
+        <i class="bx bx-briefcase-alt social__icon"></i>
+        <h1 class="section-title">Experience</h1>
+        <br />
+        <div class="experience__container bd-grid">
+          <div class="experience__content">
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+
+            <div class="experience__data bd-grid">
+              <h3 class="experience__title">
+                Digital Channel Marketing Manager
+              </h3>
+              <span class="experience__company"
+                >2017 - 2023 | Schneider Electric</span
+              ><br /><br />
+              <p class="experience__description">
+                • Define the annual marketing plan, buyer persona, customer
+                journey, and communication strategy for the electrician
+                channel.<br />
+                • Develop the electrician channel program aiming to foster
+                customer loyalty.<br />
+                • Plan, lead, and monitor recruitment and engagement campaigns
+                for social media marketing, email marketing, and SEM.<br />
+                • Validate key performance indicators.<br />
+                • Assist in the creation of new content, press releases, and
+                promotional material.<br />
+                • Report results and present plans to local and global
+                stakeholders.<br />
+                • Control of the budget while achieving marketing objectives.
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="experience__content">
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+
+            <div class="experience__data bd-grid">
+              <h3 class="experience__title">PRM Champion</h3>
+              <span class="experience__company"
+                >2017 - 2020 | Schneider Electric</span
+              ><br /><br />
+              <p class="experience__description">
+                • Deployed mySchneider website and app in the Andean region.<br />
+                • Managed the electrician channel program content and updated
+                the program website (Salesforce CRM, HTML, CSS).<br />
+                • Created visual content for social and email marketing
+                (Photoshop, Premiere).<br />
+                • Managed the customer databases.<br />
+                • Responsible of tracking KPIs.<br />
+                • Launched new services for the mySchneider ecosystem
+                (mySchneider opportunities, chat, product selector, online
+                courses).
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="experience__content">
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <!--<span class="experience__line"></span>-->
+            </div>
+
+            <div class="experience__data bd-grid">
+              <h3 class="experience__title">
+                APC Technical Support Engineer South America
+              </h3>
+              <span class="experience__company"
+                >2014 - 2017 | Schneider Electric</span
+              ><br /><br />
+              <p class="experience__description">
+                • Provided technical and commercial support for IT enterprise
+                and commercial partners in South America (except Brazil).<br />
+                • Applied case resolution and troubleshooting on a daily
+                basis.<br />
+                • In charge of the authorization for replacement or repairment
+                of returned merchandise (Oracle, SAP).<br />
+                • Published over 100 FAQs about IT products and solutions.<br />
+                • Captured over 1M EUR in leads.<br />
+                • Created reports and dashboards to track assistance and
+                schedule adherence of the entire team.<br />
+                • Lead the deployment of bFS (field services module) in
+                Salesforce bFO for the customer care center agent environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hidden" style="text-align: center">
+        <i class="bx bx-pen social__icon"></i>
+        <h1 class="section-title">Education</h1>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+            <br />
+            <div class="education__data bd-grid">
+              <h3 class="education__title">
+                Bachelor in Electronics Engineering
+              </h3>
+              <span class="education__studies"
+                >Universidad Nacional Experimental del Táchira<br
+              /></span>
+              <span class="education__year">2006 - 2012</span>
+            </div>
+          </div>
+          <br />
+          <div class="education__content">
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div class="education__data bd-grid">
+              <h3 class="education__title">Master in Industrial Automation</h3>
+              <span class="education__studies"
+                >Universidad Nacional de Colombia<br
+              /></span>
+              <span class="education__year">2015 - 2016 (Dropped)</span>
+            </div>
+          </div>
+          <br />
+          <div class="education__content">
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <!--<span class="education__line"></span>-->
+            </div>
+
+            <div class="education__data bd-grid">
+              <h3 class="education__title">
+                Master in Business Administration - MBA
+              </h3>
+              <span class="education__studies"
+                >EUDE European Business School<br
+              /></span>
+              <span class="education__year">2021 - 2022</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hidden" style="text-align: center">
+        <i class="bx bx-award social__icon"></i>
+        <h1 class="section-title">Certifications</h1>
+        <br />
+        <div class="course__container bd-grid">
+          <div class="course__content">
+            <h3 class="course__title">
+              Google Analytics Individual Qualification
+            </h3>
+            <p class="course__institute">Google</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Google Ads Search Certification</h3>
+            <p class="course__institute">Google</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Google Ads Search</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Google Ads Display</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Data Analytics Certificate - Foundations: Data, Data, Everywhere
+            </h3>
+            <p class="course__institute">Google</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Data Analytics Certificate - Ask Questions to Make Data-Driven
+              Decisions
+            </h3>
+            <p class="course__institute">Google</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Data Analytics Certificate - Prepare Data for Exploration
+            </h3>
+            <p class="course__institute">Google</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Scrum Fundamentals Certified</h3>
+            <p class="course__institute">SCRUMstudy</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Introduction to Data and Data Science</h3>
+            <p class="course__institute">365 Data Science</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Statistics</h3>
+            <p class="course__institute">365 Data Science</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Building a 3-Statement Model in Excel</h3>
+            <p class="course__institute">365 Data Science</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Game Theory with Python</h3>
+            <p class="course__institute">Coursera</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Curso Profesional de Git y GitHub</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Terminal y Línea de Comandos</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Entorno de Trabajo con Jupyter Notebooks y Anaconda
+            </h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Análisis de Negocios para Ciencia de Datos
+            </h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Creatividad e Innovación</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Business Model Canvas</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Crear un MVP sin Código</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Encontrar y Evaluar Ideas para Emprender
+            </h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Desarrollar Habilidades de Emprendimiento
+            </h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">
+              Productividad y Manejo del Tiempo para Startups
+            </h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Introducción al Mundo de las Startups</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+
+          <div class="course__content">
+            <h3 class="course__title">Filosofía para Managers</h3>
+            <p class="course__institute">Platzi</p>
+            <br />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--<div class="email-container">
             <a class="email-me" href="mailto:franciscoahurtado@gmail.com">Email</a>
         </div>
 
         <div class="line"></div>-->
 
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-        <script>
-            VANTA.NET({
-            el: "#main",
-            mouseControls: false,
-            touchControls: false,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x79e381,
-            backgroundColor: 0xf0f14,
-            points: 16.00,
-            maxDistance: 16.00,
-            spacing: 10.00,
-            showDots: false
-            })
-        </script>
-
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: "#main",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x79e381,
+        backgroundColor: 0xf0f14,
+        points: 16.0,
+        maxDistance: 16.0,
+        spacing: 10.0,
+        showDots: false,
+      });
+    </script>
+  </body>
 </html>
