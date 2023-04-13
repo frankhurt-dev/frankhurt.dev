@@ -27,18 +27,20 @@
     </div>
     <script src="splash.js"></script>
 
-    <!--========== FAVICON ==========-->
+    <!--=========== FAVICON ===========-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
   </head>
+
   <body>
+    <!--======== PARTICLES JS =========-->
     <div id="particles-js"></div>
     <script src="particles.min.js"></script>
     <script src="particles.js"></script>
 
-    <!--========== NAVBAR ==========-->
+    <!--=========== NAVBAR ============-->
     <div id="main">
       <nav class="sidebar close">
         <header>
@@ -109,8 +111,6 @@
         const body = document.querySelector("body"),
           sidebar = body.querySelector("nav"),
           toggle = body.querySelector(".toggle"),
-          searchBtn = body.querySelector(".search-box"),
-          modeSwitch = body.querySelector(".toggle-switch"),
           modeText = body.querySelector(".mode-text");
 
         toggle.addEventListener("click", () => {
@@ -574,39 +574,9 @@
             <p class="course__institute">Platzi</p>
             <br />
           </div>
-
-          <!--<div class="course__content">
-            <h3 class="course__title">Encontrar y Evaluar Ideas para Emprender</h3>
-            <p class="course__institute">Platzi</p>
-            <br />
-          </div>
-
-          <div class="course__content">
-            <h3 class="course__title">Desarrollar Habilidades de Emprendimiento</h3>
-            <p class="course__institute">Platzi</p>
-            <br />
-          </div>
-
-          <div class="course__content">
-            <h3 class="course__title">Productividad y Manejo del Tiempo para Startups</h3>
-            <p class="course__institute">Platzi</p>
-            <br />
-          </div>
-
-          <div class="course__content">
-            <h3 class="course__title">Introducción al Mundo de las Startups</h3>
-            <p class="course__institute">Platzi</p>
-            <br />
-          </div>
-
-          <div class="course__content">
-            <h3 class="course__title">Filosofía para Managers</h3>
-            <p class="course__institute">Platzi</p>
-            <br />
-          </div>-->
         </div>
       </section>
-    </div> 
+    </div>
 
     <footer class="footer">Made by frankhurt.dev</footer>
   </body>
