@@ -216,15 +216,23 @@ a:active {
   text-align: left;
 }
 
+@media screen and (min-width: 800px){
+  .skill__data {
+    text-align: left;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
+    column-rule: 1px solid #fff;
+  } 
+}
+
 .skill__data {
   text-align: left;
   display: grid;
-  margin: 0 auto;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-gap: 1rem;
-  column-rule: 1px solid #fff;
-}
+} 
+
 
 .skills__circle {
   justify-content: center;
