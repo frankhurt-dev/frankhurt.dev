@@ -621,17 +621,15 @@ body.dark .home .text {
 }
 
 /* ---- particles.js container with infinite background ---- */
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 660%;
-  background-color: #0f0f14;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-canvas {
-  display: block;
+@media screen and (min-width: 760px) {
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 660%;
+    background-color: #0f0f14;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }  
 }
