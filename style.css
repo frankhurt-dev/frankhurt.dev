@@ -220,7 +220,7 @@ a:active {
   color: #c3c3c3;
 }
 
-@media screen and (min-width: 390px){
+@media screen and (min-width: 360px){
   .skill__data {
     text-align: left;
     display: grid;
