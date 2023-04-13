@@ -631,3 +631,7 @@ body.dark .home .text {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+canvas {
+  display: block;
+}
