@@ -1,4 +1,5 @@
 particlesJS("particles-js", {
+  
   particles: {
     number: {
       value: 20,
@@ -14,7 +15,7 @@ particlesJS("particles-js", {
       type: "edge",
       stroke: {
         width: 0,
-        color: "#000000",
+        "color": "#000000",
       },
       polygon: {
         nb_sides: 5,
