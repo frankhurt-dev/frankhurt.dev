@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
 :root {
   /* ===== Colors ===== */
@@ -9,6 +9,7 @@
   --medium-font-size: 1.5rem;
   --small-font-size: 1rem;
   --background-color: #0f0f14;
+  --font-family: "Quicksand", sans-serif;
 
   /* ====== Spacing ====== */
   --section-margin: 5rem;
@@ -159,7 +160,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
 }
 
 /* Header Styling */
