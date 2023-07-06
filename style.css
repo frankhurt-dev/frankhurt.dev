@@ -218,6 +218,7 @@ body {
 
 .menu__item {
   margin-right: var(--mb-4);
+  margin-left: var(--mb-4);
 }
 
 .menu__link {
