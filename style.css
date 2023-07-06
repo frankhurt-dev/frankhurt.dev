@@ -372,6 +372,7 @@ a:active {
 .name-header {
   text-align: Left;
   font-size: 3rem;
+  line-height: 1;
   font-family: "Poppins", sans-serif;
 }
 
