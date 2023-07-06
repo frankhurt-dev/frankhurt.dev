@@ -333,6 +333,7 @@ section {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
+  font-weight: 500;
 }
 
 .logoSplash.active {
@@ -372,6 +373,7 @@ a:active {
   text-align: Left;
   font-size: 3rem;
   line-height: 1;
+  font-weight: 600;
 }
 
 .hobbies__container {
@@ -382,6 +384,7 @@ a:active {
   text-align: left;
   width: 70%;
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .social__container {
