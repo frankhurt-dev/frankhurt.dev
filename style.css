@@ -52,12 +52,6 @@
     margin: 0;
     padding: 10px;
   }
-
-  .skill__icon {
-    margin: 0;
-    padding: 0;
-    font-size: var(--large-font-size);
-  }
 }
 
 /* Mobile styles */
@@ -82,7 +76,7 @@
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 800px) {
   .skill__data {
     text-align: left;
     display: grid;
@@ -224,10 +218,10 @@ header {
 section {
   display: grid;
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1500px;
   padding: 10% 10%;
   align-content: center;
-  min-height: 50vh;
+  min-height: 60vh;
 }
 
 .hidden {
@@ -418,8 +412,8 @@ a:active {
 
 .skill__icon {
   margin: 0;
-  padding: 0;
-  font-size: var(--medium-font-size);
+  padding: 0 10px;
+  font-size: 2rem;
   align-content: center;
   vertical-align: middle;
   color: var(--primary-color);
