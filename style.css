@@ -121,14 +121,12 @@ body {
 
 /* Header Styling */
 header {
-  position: relative;
   width: 100%;
   padding: 0 3vh;
   align-items: center;
   justify-content: center;
-  background-color: var(--background-color);
-  overflow: hidden;
   z-index: 5;
+  position: fixed;
 }
 
 /* Profile Styling */
