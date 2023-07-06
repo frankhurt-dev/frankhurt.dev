@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand|Poppins|Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap");
 
 :root {
   /* ===== Colors ===== */
@@ -9,7 +9,7 @@
   --medium-font-size: 1.5rem;
   --small-font-size: 1rem;
   --background-color: #0f0f14;
-  --font-family: "Ubuntu", sans-serif;
+  --font-family: "Maven Pro", sans-serif;
 
   /* ====== Spacing ====== */
   --section-margin: 5rem;
@@ -333,7 +333,6 @@ section {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .logoSplash.active {
@@ -373,12 +372,10 @@ a:active {
   text-align: Left;
   font-size: 3rem;
   line-height: 1;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .hobbies__container {
   text-align: Left;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .name-subheader {
