@@ -179,7 +179,7 @@ body {
 
 .profile__image:hover {
   transform: scale(1.2);
-  transition: all 0.2s ease;
+  transition: all 0.2s linear;
 }
 
 .profile__details {
