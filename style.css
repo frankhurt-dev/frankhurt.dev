@@ -88,10 +88,6 @@
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
-  /* CSS */
-}
-
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -219,7 +215,9 @@ section {
   display: grid;
   margin: 0 auto;
   max-width: 1500px;
-  padding: 10% 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
   align-content: center;
   min-height: 60vh;
 }
