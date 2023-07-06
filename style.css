@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand|Poppins&display=swap");
 
 :root {
   /* ===== Colors ===== */
@@ -371,6 +371,7 @@ a:active {
 .name-header {
   text-align: Left;
   font-size: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .hobbies__container {
