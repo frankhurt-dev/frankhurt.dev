@@ -179,7 +179,7 @@ body {
 
 .profile__image:hover {
   transform: scale(1.2);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .profile__details {
@@ -277,15 +277,15 @@ section {
 .social__link {
   display: inline-flex;
   align-items: center;
+  padding-top: 10px;
   font-size: var(--small-font-size);
   color: var(--text-color);
   text-decoration: none;
 }
 
 .social__link:hover {
-  font-size: 3rem;
-  transform: translateY(-5%);
-  transition: all 0.2s linear;
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
 }
 
 .social__icon {
@@ -300,6 +300,21 @@ section {
 
 .section-title {
   margin-bottom: 2rem;
+}
+
+.section__icon:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
+
+.section-title:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
+
+.experience__title:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
 }
 
 .intro {
@@ -353,7 +368,8 @@ a:visited {
 
 a:hover {
   color: var(--primary-color);
-  transition: all 0.2s linear;
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
 }
 /* selected link */
 a:active {
@@ -400,6 +416,21 @@ a:active {
 .skill__data {
   text-align: left;
   display: grid;
+}
+
+.skill__name:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
+}
+
+.education__title:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
+}
+
+.course__title:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
 }
 
 .skills__circle {
