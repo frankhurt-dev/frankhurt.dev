@@ -94,14 +94,8 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .skill__data {
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .skill__data {
-  }
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  /* CSS */
 }
 
 body {
@@ -231,7 +225,7 @@ section {
   display: grid;
   margin: 0 auto;
   max-width: 1024px;
-  padding: 0 10%;
+  padding: 10% 10%;
   align-content: center;
   min-height: 50vh;
 }
