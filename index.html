@@ -42,85 +42,68 @@
 
     <!--=========== NAVBAR ============-->
     <div id="main">
-      <nav class="sidebar close">
-        <header>
-          <div class="image-text">
-            <span class="image">
-              <img src="avatar.png" style="border-radius: 50%" alt="" />
-            </span>
-
-            <div class="text logo-text">
-              <span class="name">frankhurt.dev</span>
-              <span class="profession">Engineer<br />Coder<br />MBA</span>
+      <nav class="nav-bar">
+        <header class="header">
+          <div class="profile">
+            <img
+              src="avatar.png"
+              class="profile__image"
+              alt="Profile Picture"
+            />
+            <div class="profile__details">
+              <span class="profile__name">frankhurt.dev</span>
+              <span class="profile__description"
+                >Engineer<br />Coder<br />MBA</span
+              >
             </div>
           </div>
-
-          <i class="bx bx-chevron-right toggle"></i>
         </header>
 
         <div class="menu-bar">
-          <div class="menu">
-            <ul class="menu-links">
-              <li class="nav-link">
-                <a href="#About">
-                  <i class="bx bxs-user-circle icon"></i>
-                  <span class="text nav-text">About</span>
-                </a>
-              </li>
-
-              <li class="nav-link">
-                <a href="#Skillset">
-                  <i class="bx bxs-brain icon"></i>
-                  <span class="text nav-text">Skillset</span>
-                </a>
-              </li>
-
-              <li class="nav-link">
-                <a href="#Portfolio">
-                  <i class="bx bxs-briefcase-alt icon"></i>
-                  <span class="text nav-text">Portfolio</span>
-                </a>
-              </li>
-
-              <li class="nav-link">
-                <a href="#Experience">
-                  <i class="bx bxs-business icon"></i>
-                  <span class="text nav-text">Experience</span>
-                </a>
-              </li>
-
-              <li class="nav-link">
-                <a href="#Education">
-                  <i class="bx bxs-graduation icon"></i>
-                  <span class="text nav-text">Education</span>
-                </a>
-              </li>
-
-              <li class="nav-link">
-                <a href="#Courses">
-                  <i class="bx bxs-award icon"></i>
-                  <span class="text nav-text">Courses</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul class="menu__links">
+            <li class="menu__item">
+              <a href="#About" class="menu__link">
+                <i class="bx bxs-user-circle menu__icon"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#Skillset" class="menu__link">
+                <i class="bx bxs-brain menu__icon"></i>
+                <span>Skillset</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#Portfolio" class="menu__link">
+                <i class="bx bxs-briefcase-alt menu__icon"></i>
+                <span>Portfolio</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#Experience" class="menu__link">
+                <i class="bx bxs-business menu__icon"></i>
+                <span>Experience</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#Education" class="menu__link">
+                <i class="bx bxs-graduation menu__icon"></i>
+                <span>Education</span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#Courses" class="menu__link">
+                <i class="bx bxs-award menu__icon"></i>
+                <span>Courses</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
 
-      <script>
-        const body = document.querySelector("body"),
-          sidebar = body.querySelector("nav"),
-          toggle = body.querySelector(".toggle"),
-          modeText = body.querySelector(".mode-text");
-
-        toggle.addEventListener("click", () => {
-          sidebar.classList.toggle("close");
-        });
-      </script>
-
       <section class="hidden" id="About">
-        <h1 class="name-header">Francisco</h1>
-        <h1 class="name-header">Hurtado</h1>
+        <h1 class="name-header">Francisco Alberto</h1>
+        <h1 class="name-header">Hurtado Matallana</h1>
         <br />
         <p style="line-height: 2rem">
           Greetings! My name’s Francisco, a Maracaibo-born Venezuelan, a
@@ -138,7 +121,7 @@
           fluently as my native Spanish. Additionally, I have a fundamental
           understanding of the Japanese 🇯🇵 language.<br />
         </p>
-        <br />
+        <br /><br />
         <h2 class="name-subheader">Get in touch</h2>
         <div class="social__container">
           <div class="social__item">
@@ -427,7 +410,7 @@
             <br />
             <div class="education__data bd-grid">
               <h3 class="education__title">
-                Bachelor in Electronics Engineering
+                Bachelor Degree in Electronics Engineering
               </h3>
               <span class="education__studies"
                 >Universidad Nacional Experimental del Táchira<br
@@ -443,11 +426,13 @@
             </div>
 
             <div class="education__data bd-grid">
-              <h3 class="education__title">Master in Industrial Automation</h3>
+              <h3 class="education__title">
+                Master Degree in Electronics Engineering: Industrial Automation
+              </h3>
               <span class="education__studies"
                 >Universidad Nacional de Colombia<br
               /></span>
-              <span class="education__year">2015 - 2016 (Dropped)</span>
+              <span class="education__year">2015 - 2016 (Withdrew)</span>
             </div>
           </div>
           <br />
@@ -459,7 +444,7 @@
 
             <div class="education__data bd-grid">
               <h3 class="education__title">
-                Master in Business Administration
+                Master Degree in Business Administration and Management
               </h3>
               <span class="education__studies"
                 >EUDE European Business School<br
@@ -598,6 +583,7 @@
         </div>
       </section>
     </div>
+    <br /><br /><br /><br />
 
     <footer class="footer">Made by frankhurt.dev</footer>
   </body>
