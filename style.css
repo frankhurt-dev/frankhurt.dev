@@ -177,6 +177,11 @@ body {
   margin-right: 10px;
 }
 
+.profile__image:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+
 .profile__details {
   display: flex;
   flex-direction: column;
@@ -285,7 +290,6 @@ section {
 
 .social__icon {
   font-size: 2.5rem;
-  color: var(--primary-color);
   padding-right: 0.75rem;
 }
 
@@ -336,39 +340,6 @@ section {
   transition: ease-in-out 0.5s;
 }
 
-.profile-pic {
-  opacity: 0.9;
-  border-radius: 25%;
-}
-
-.email-container {
-  position: fixed;
-  bottom: 5%;
-  right: 50px;
-  transform: translateY(0%) rotate(90deg);
-  transform-origin: 100% 100%;
-  font-size: 1rem;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 1;
-  transition: all 0.3s linear;
-}
-
-.email-container:hover {
-  transform: translateY(-5px) rotate(90deg);
-  transition: all 0.3s linear;
-}
-
-.line {
-  position: fixed;
-  top: 96%;
-  right: 27px;
-  width: 2px;
-  height: calc(100vh - 50%);
-  background-color: white;
-  z-index: 1;
-}
-
 /* unvisited link */
 a:link {
   color: white;
@@ -378,13 +349,6 @@ a:link {
 /* visited link */
 a:visited {
   color: white;
-}
-
-/* mouse over link */
-.email-me:hover {
-  color: var(--primary-color);
-  transform: translateY(5%);
-  transition: all 0.2s linear;
 }
 
 a:hover {
