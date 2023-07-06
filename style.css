@@ -382,6 +382,11 @@ a:active {
   line-height: 3rem;
 }
 
+.name-header:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease;
+}
+
 .hobbies__container {
   text-align: Left;
 }
