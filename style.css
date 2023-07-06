@@ -370,12 +370,6 @@ a:active {
 .name-header {
   text-align: Left;
   font-size: 3rem;
-  line-height: 3rem;
-}
-
-.name-header:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
 }
 
 .hobbies__container {
