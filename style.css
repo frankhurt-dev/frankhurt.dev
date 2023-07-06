@@ -52,6 +52,10 @@
     margin: 0;
     padding: 10px;
   }
+
+  .skills__circle {
+    margin-top: 5px;
+  }
 }
 
 /* Mobile styles */
@@ -217,7 +221,7 @@ section {
   max-width: 1500px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   align-content: center;
   min-height: 60vh;
 }
@@ -239,6 +243,11 @@ section {
   grid-template-columns: max-content;
   margin-bottom: var(--mb-3);
   gap: 1rem;
+}
+
+.social__item {
+  display: flex;
+  align-items: center;
 }
 
 .social__link {
@@ -405,12 +414,12 @@ a:active {
   justify-content: center;
   align-items: center;
   line-height: 3rem;
-  margin-left: 0rem;
+  margin-left: 5px;
 }
 
 .skill__icon {
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
   font-size: 2rem;
   align-content: center;
   vertical-align: middle;
