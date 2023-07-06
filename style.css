@@ -326,7 +326,6 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--primary-color);
-  font-family: "Poppins", sans-serif;
 }
 
 .logoSplash {
@@ -334,6 +333,7 @@ section {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .logoSplash.active {
