@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand|Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand|Poppins|Ubuntu&display=swap");
 
 :root {
   /* ===== Colors ===== */
@@ -333,7 +333,7 @@ section {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .logoSplash.active {
@@ -373,11 +373,12 @@ a:active {
   text-align: Left;
   font-size: 3rem;
   line-height: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .hobbies__container {
   text-align: Left;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .name-subheader {
