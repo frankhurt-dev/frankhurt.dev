@@ -213,8 +213,8 @@ body {
 }
 
 .menu__links {
-  list-style: none;
   display: flex;
+  list-style: none;
 }
 
 .menu__item {
@@ -266,20 +266,39 @@ section {
   transform: translateX(0);
 }
 
+.name-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.name-subheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .social__container {
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: var(--mb-3);
-  gap: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social__item {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .social__link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   padding-top: 10px;
   font-size: 1.15rem;
   color: var(--text-color);
@@ -368,29 +387,6 @@ a:hover {
 /* selected link */
 a:active {
   color: skyblue;
-}
-
-.name-header {
-  text-align: Left;
-  font-size: 3rem;
-  line-height: 1;
-  font-weight: 600;
-}
-
-.hobbies__container {
-  text-align: Left;
-}
-
-.name-subheader {
-  text-align: left;
-  width: 70%;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.social__container {
-  text-align: Left;
-  width: 70%;
 }
 
 .course__content {
