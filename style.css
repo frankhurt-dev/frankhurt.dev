@@ -273,6 +273,7 @@ section {
   font-size: 3rem;
   line-height: 1;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .name-subheader {
@@ -281,6 +282,7 @@ section {
   justify-content: center;
   font-size: 1.5rem;
   font-weight: 500;
+  padding-top: 60px;
 }
 
 .social__container {
