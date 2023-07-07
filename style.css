@@ -28,6 +28,10 @@
   --transition-delay-5: all 0.3s linear 1s;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Media query for reduced motion */
 @media (prefers-reduced-motion) {
   .hidden {
@@ -137,7 +141,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: var(--small-font-size);
-  line-height: 1.6;
+  line-height: 1.5;
   overflow-x: hidden;
   overflow-y: auto;
   scroll-behavior: smooth;
@@ -226,7 +230,7 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   transition: color 0.3s;
 }
 
@@ -294,7 +298,12 @@ section {
 .social__item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.social__icon {
+  font-size: 2.5rem;
 }
 
 .social__link {
@@ -302,19 +311,15 @@ section {
   align-items: center;
   justify-content: center;
   padding-top: 10px;
-  font-size: 1.15rem;
+  margin: auto 10px;
+  font-size: 1.1rem;
   color: var(--text-color);
   text-decoration: none;
-  padding-right: 1.5rem;
 }
 
 .social__link:hover {
   transform: translateY(-5px);
   transition: all 0.2s ease;
-}
-
-.social__icon {
-  font-size: 2.75rem;
 }
 
 .section__icon {
