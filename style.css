@@ -281,9 +281,10 @@ section {
   display: inline-flex;
   align-items: center;
   padding-top: 10px;
-  font-size: var(--small-font-size);
+  font-size: 1.15rem;
   color: var(--text-color);
   text-decoration: none;
+  padding-right: 1.5rem;
 }
 
 .social__link:hover {
@@ -293,7 +294,6 @@ section {
 
 .social__icon {
   font-size: 2.75rem;
-  padding-right: 0.5rem;
 }
 
 .section__icon {
