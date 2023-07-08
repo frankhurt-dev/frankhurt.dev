@@ -248,6 +248,7 @@ body {
 section {
   display: grid;
   margin: 0 auto;
+  overflow: hidden;
   max-width: 1200px;
   padding-left: 10%;
   padding-right: 10%;
