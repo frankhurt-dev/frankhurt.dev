@@ -1,7 +1,7 @@
 // Splash screen
 let intro = document.querySelector(".intro");
 let logoHeader = document.querySelector(".logo__header");
-let logoSpan = document.querySelectorAll(".logoSplash");
+let logoSpan = document.querySelectorAll(".logo__splash");
 
 // Lock scrolling
 let lockScrolling = true;

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--=============== HEAD ================-->
 <head>
   <meta charset="utf-8" />
   <meta name="title" content="frankhurt.dev" />
@@ -12,49 +13,55 @@
   <title>frankhurt.dev</title>
 
   <!--=========== FAVICON ===========-->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="FAVICON" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
+  <link rel="android-chrome-192x192" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png" />
+  <link rel="android-chrome-512x512" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png" />
   <link rel="manifest" href="/site.webmanifest" />
 
   <!--========== BOX ICONS ==========-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 
   <!--============ CSS ==============-->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 
   <!--========== SCROLL JS ==========-->
-  <script defer src="scroll.js"></script>
+  <script defer src="/assets/js/scroll.js"></script>
 
   <!--========== SPLASH JS ==========-->
-    <div class="intro">
-      <h1 class="logo__header">
-        <span class="logoSplash">frank</span><span class="logoSplash">hurt</span
-        ><span class="logoSplash">.dev</span>
-      </h1>
-    </div>
-    
-    <script src="splash.js"></script>
+  <div class="intro">
+    <h1 class="logo__header">
+      <span class="logo__splash">frank</span><span class="logo__splash">hurt</span><span
+        class="logo__splash">.dev</span>
+    </h1>
+  </div>
+
+  <script src="/assets/js/splash.js"></script>
 
 </head>
 
+<!--=============== BODY ================-->
 <body>
-  <!--======== PARTICLES JS =========-->
-  <div id="particles-js"></div>
-  <script src="particles.min.js"></script>
-  <script src="particles.js"></script>
 
-  <!--=========== NAVBAR ============-->
+  <!--============= PARTICLES ===========-->
+  <div id="particles__js"></div>
+  <script src="/assets/js/particles.min.js"></script>
+  <script src="/assets/js/particles.js"></script>
+
+  <!--============= HEADER ==============-->
   <header>
     <div class="profile">
-      <img src="avatar.png" class="profile__image" alt="Profile Picture" />
+      <img src="/assets/img/avatar.png" class="profile__image" alt="Profile Picture" />
       <div class="profile__details">
         <span class="profile__name"><a class="footer-link" href="https://frankhurt.dev">frankhurt.dev</a></span>
         <span class="profile__description">Engineer<br />Coder<br />MBA</span>
       </div>
     </div>
   </header>
-
+  
+  <!--============= NAVBAR ==============-->
   <nav class="nav-bar">
     <div class="menu-bar">
       <ul class="menu__links">
@@ -98,6 +105,7 @@
     </div>
   </nav>
 
+  <!--============= SECTIONS ============-->
   <section class="hidden" id="About">
 
     <h1 class="name">Francisco Hurtado</h1>
@@ -334,7 +342,7 @@
 
     <div class="experience__content">
       <h3 class="experience__title">Electronics Engineer</h3>
-      <p class="experience__company">2013-2014 | Power Systems Inc.</p>
+      <p class="experience__company">2013 - 2014 | Power Systems Inc.</p>
       <p>
         In our family business, I took an active role in designing,
         testing, and refining the electronic components of our hydraulic
@@ -371,7 +379,7 @@
 
     <div class="experience__content">
       <h3 class="experience__title">Engineering Intern</h3>
-      <p class="experience__company">2012 | Ford Motor Company</p>
+      <p class="experience__company">2013 | Ford Motor Company</p>
       <p>
         At Ford, I contributed significantly to a pivotal project that
         sought to digitize and optimize the car audit process. My role
@@ -546,10 +554,11 @@
 
   </section>
 
-  <footer>
-    Made by <a class="footer-link" href="https://frankhurt.dev">frankhurt.dev</a>
-  </footer>
-
 </body>
+
+<!--=============== FOOTER ==============-->
+<footer>
+  Made by <a class="footer-link" href="https://frankhurt.dev">frankhurt.dev</a>
+</footer>
 
 </html>
