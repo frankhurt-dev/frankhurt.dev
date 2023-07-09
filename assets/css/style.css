@@ -69,7 +69,7 @@
 }
 
 /* Media queries for tablet devices */
-@media (min-width: 900px) {
+@media (min-width: 1250px) {
   .menu-bar {
     opacity: 1;
     filter: blur(0);
@@ -107,7 +107,7 @@
 }
 
 /* Media queries for mobile devices */
-@media (max-width: 900px) {
+@media (max-width: 1250px) {
   .menu-bar {
     opacity: 0;
     filter: blur(20px);
