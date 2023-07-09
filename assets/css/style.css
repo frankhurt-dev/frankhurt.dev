@@ -50,8 +50,6 @@
 
   .skillset {
     display: grid;
-    padding-left: 10%;
-    padding-right: 10%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(7, 1fr);
   }
@@ -340,11 +338,11 @@ section {
   margin: 0 auto;
   text-align: center;
   align-content: center;
-  max-width: 900px;
+  min-height: max-content;
+  max-width: 800px;
+  padding-top: 200px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 100px;
-  min-height: 50vh;
 }
 
 .section__icon {
@@ -384,6 +382,7 @@ section {
   text-align: left;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .social {
@@ -490,5 +489,6 @@ footer {
   color: #c3c3c3;
   position: relative;
   text-align: center;
+  padding-top: 100px;
   padding-bottom: 25px;
 }
