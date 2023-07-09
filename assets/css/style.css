@@ -247,6 +247,7 @@ a:active {
   top: 0;
   bottom: 0;
   width: 100%;
+  opacity: 0.5;
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
