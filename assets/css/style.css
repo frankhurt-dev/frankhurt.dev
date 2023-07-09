@@ -187,10 +187,12 @@ a:visited {
   color: white;
 }
 
-a:hover {
-  color: var(--primary-color);
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: var(--primary-color);
+    transform: translateY(-5px);
+    transition: all 0.2s ease;
+  }
 }
 
 a:active {
@@ -269,9 +271,11 @@ a:active {
   margin-right: 10px;
 }
 
-.profile__image:hover {
-  transform: scale(1.2);
-  transition: all 0.2s linear;
+@media (hover: hover) and (pointer: fine) {
+  .profile__image:hover {
+    transform: scale(1.2);
+    transition: all 0.2s linear;
+  }
 }
 
 .profile__details {
@@ -399,9 +403,11 @@ section {
   padding: 5px 0;
 }
 
-.social__link:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
+@media (hover: hover) and (pointer: fine) {
+  .social__link:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease;
+  }
 }
 
 /* Skillset */
@@ -410,9 +416,11 @@ section {
   text-align: left;
 }
 
-.skill:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
+@media (hover: hover) and (pointer: fine) {
+  .skill:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease;
+  }
 }
 
 .skill__name {
@@ -443,9 +451,11 @@ section {
   text-align: left;
 }
 
-.education__title:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
+@media (hover: hover) and (pointer: fine) {
+  .education__title:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease;
+  }
 }
 
 .education__institute {
@@ -458,9 +468,11 @@ section {
   text-align: left;
 }
 
-.course__title:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
+@media (hover: hover) and (pointer: fine) {
+  .course__title:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease;
+  }
 }
 
 .course__institute {
