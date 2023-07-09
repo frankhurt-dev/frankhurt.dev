@@ -58,7 +58,7 @@
     gap: 2rem;
   }
 
-  .skill__data {
+  .skillset {
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
@@ -66,7 +66,7 @@
     grid-gap: var(--mb-3);
   }
 
-  .skill__name {
+  .skill {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,8 +75,8 @@
     padding: 10px;
   }
 
-  .skills {
-    margin-top: 5px;
+  .skill__name {
+    margin-top: 10px;
   }
 }
 
@@ -96,7 +96,7 @@
     width: 50%;
   }
 
-  .skill__data {
+  .skillset {
     text-align: left;
     display: grid;
     margin: 0 auto;
@@ -401,20 +401,19 @@ section {
 
 /* Skillset */
 
-.skill__data {
+.skillset {
   text-align: left;
 }
 
-.skill__name:hover {
+.skill:hover {
   transform: translateY(-5px);
   transition: all 0.2s ease;
 }
 
-.skills {
+.skill__name {
   align-items: center;
-  justify-content: center;
-  line-height: 3rem;
-  margin-left: 5px;
+  margin-left: 10px;
+  line-height: var(--mb-7);
 }
 
 /* Experience */
@@ -434,12 +433,8 @@ section {
 
 /* Education*/
 
-.education__content {
+.education {
   text-align: left;
-}
-
-.education__institute {
-  color: #c3c3c3;
 }
 
 .education__title:hover {
@@ -447,9 +442,13 @@ section {
   transition: all 0.2s ease;
 }
 
+.education__institute {
+  color: #c3c3c3;
+}
+
 /* Courses */
 
-.course__content {
+.courses {
   text-align: left;
 }
 
