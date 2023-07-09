@@ -18,6 +18,8 @@
   --mb-3: 1rem;
   --mb-4: 1.2rem;
   --mb-5: 2rem;
+  --mb-6: 2.3rem;
+  --mb-7: 3rem;
 
   /* ====== Transition ====== */
   --transition: all 0.3s linear;
@@ -361,7 +363,7 @@ section {
 
 .about__name {
   text-align: left;
-  font-size: 3rem;
+  font-size: var(--mb-6);
   line-height: 1;
   font-weight: 600;
   padding-bottom: 20px;
