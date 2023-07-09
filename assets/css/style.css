@@ -175,6 +175,11 @@ ul {
   list-style: none;
 }
 
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Hyperlinks */
 
 a:link {
