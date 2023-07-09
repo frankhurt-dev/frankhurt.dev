@@ -328,8 +328,8 @@ a:active {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: var(--mb-4);
   transition: color 0.3s;
+  font-size: var(--mb-4);
 }
 
 .menu__icon {
