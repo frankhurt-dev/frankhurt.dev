@@ -49,6 +49,13 @@
 
 /* Media queries for desktop devices */
 @media screen and (min-width: 1024px) {
+  .social__content {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 2rem;
+  }
+
   .skill__data {
     display: grid;
     margin: 0 auto;
@@ -66,7 +73,7 @@
     padding: 10px;
   }
 
-  .skills__circle {
+  .skills {
     margin-top: 5px;
   }
 }
@@ -78,6 +85,13 @@
     filter: blur(0);
     transform: translateX(0);
     transition: all 1.2s;
+  }
+
+  .social__content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
   }
 
   .skill__data {
@@ -345,7 +359,7 @@ section {
 
 /* About */
 
-.name {
+.about__name {
   text-align: left;
   font-size: 3rem;
   line-height: 1;
@@ -353,15 +367,16 @@ section {
   padding-bottom: 20px;
 }
 
-.bio {
+.about__content {
+  display: flex;
   text-align: left;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.social__container {
-  display: flex;
+.social__content {
   align-items: center;
-  gap: 2rem;
-  width: 50%;
+  width: 56%;
 }
 
 .social__icon {
@@ -374,6 +389,7 @@ section {
   font-size: var(--mb-4);
   color: var(--text-color);
   text-decoration: none;
+  padding: 5px 0;
 }
 
 .social__link:hover {
@@ -385,7 +401,6 @@ section {
 
 .skill__data {
   text-align: left;
-  display: grid;
 }
 
 .skill__name:hover {
@@ -393,7 +408,7 @@ section {
   transition: all 0.2s ease;
 }
 
-.skills__circle {
+.skills {
   justify-content: center;
   align-items: center;
   line-height: 3rem;
