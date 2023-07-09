@@ -436,9 +436,11 @@ section {
   text-align: left;
 }
 
-.experience__title:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease;
+@media (hover: hover) and (pointer: fine) {
+  .experience__title:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease;
+  }
 }
 
 .experience__company {
