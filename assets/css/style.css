@@ -140,11 +140,12 @@
 @media screen and (max-width: 1500px) {
   header {
     width: 100%;
-    padding: 10% 5%;
+    padding-top: 5%;
+    padding-left: 10%;
     align-items: center;
     justify-content: center;
+    position: absolute;
     z-index: 5;
-    position: relative;
   }
 }
 
