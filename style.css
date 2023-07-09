@@ -73,6 +73,7 @@
     justify-content: center;
     margin: 0;
     padding: 10px;
+    font-weight: 500;
   }
 
   .skill__name {
@@ -81,7 +82,7 @@
 }
 
 /* Media queries for tablet devices */
-@media (min-width: 870px) {
+@media (min-width: 900px) {
   .menu-bar {
     opacity: 1;
     filter: blur(0);
@@ -113,10 +114,14 @@
     vertical-align: middle;
     color: var(--primary-color);
   }
+
+  .skill {
+    font-weight: 500;
+  }
 }
 
 /* Media queries for mobile devices */
-@media (max-width: 870px) {
+@media (max-width: 900px) {
   .menu-bar {
     opacity: 0;
     filter: blur(20px);
@@ -334,7 +339,7 @@ section {
   max-width: 1200px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   min-height: 60vh;
 }
 
