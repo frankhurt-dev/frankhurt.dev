@@ -1,15 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@100;200;300;400;500;600&display=swap");
-
 :root {
   /* ===== Colors ===== */
   --primary-color: #79e381;
-  --primary-color-light: #c3c3c3;
+  --primary-color-light: #bdc3c7;
   --text-color: #fff;
   --large-font-size: 3rem;
-  --medium-font-size: 1.5rem;
-  --small-font-size: 1rem;
+  --medium-font-size: 2rem;
+  --small-font-size: 1.4rem;
   --background-color: #0f0f14;
-  --font-family: 'Syne', sans-serif;
+  --font-family: "Darker Grotesque", sans-serif;
 
   /* ====== Spacing ====== */
   --section-margin: 5rem;
@@ -140,6 +138,7 @@
 body {
   background-color: var(--background-color);
   font-size: var(--small-font-size);
+  font-weight: 400;
   font-family: var(--font-family);
   color: var(--text-color);
   box-sizing: border-box;
@@ -280,9 +279,9 @@ a:active {
 }
 
 .profile__description {
-  color: #bdc3c7;
-  line-height: 1.3;
-  font-size: 0.8rem;
+  color: var(--primary-color-light);
+  line-height: 1.2;
+  font-size: 1rem;
 }
 
 /* Navigation Menu */
@@ -332,7 +331,7 @@ section {
   text-align: center;
   align-content: center;
   min-height: max-content;
-  max-width: 800px;
+  max-width: 720px;
   padding-top: 150px;
   padding-left: 10%;
   padding-right: 10%;
@@ -360,13 +359,18 @@ section {
   transform: translateX(0);
 }
 
+p {
+  letter-spacing: 0.5px;
+  word-spacing: -2px;
+}
+
 /* About */
 
 .name {
-  font-weight: 600;
-  letter-spacing: -2px;
+  font-weight: 800;
+  letter-spacing: -1px;
   text-align: center;
-  font-size: var(--mb-6);
+  font-size: var(--mb-7);
   line-height: 1;
 }
 
@@ -374,28 +378,26 @@ section {
   display: flex;
   text-align: center;
   align-items: center;
-  letter-spacing: 0.20px;
-  padding: 20px 60px;
 }
 
 .social {
   display: flex;
   align-items: center;
   justify-content: center;
-  letter-spacing: -0.20px;
+  padding-top: 30px;
   gap: var(--mb-4);
   width: 100%;
 }
 
 .social__icon {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .social__link {
   display: flex;
+  font-weight: 500;
   align-items: center;
   text-decoration: none;
-  font-size: var(--mb-4);
   color: var(--text-color);
 }
 
