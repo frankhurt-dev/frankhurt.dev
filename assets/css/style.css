@@ -261,12 +261,12 @@ a:active {
   margin-right: 10px;
 }
 
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .profile__image:hover {
     transform: scale(1.2);
     transition: all 0.2s linear;
   }
-}
+} */
 
 .profile__details {
   display: flex;
