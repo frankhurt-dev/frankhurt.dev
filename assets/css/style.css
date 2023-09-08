@@ -179,7 +179,6 @@ a:visited {
 @media (hover: hover) and (pointer: fine) {
   a:hover {
     color: var(--primary-color);
-    transform: translateY(-5px);
     transition: all 0.2s ease-out;
   }
 }
@@ -259,13 +258,6 @@ a:active {
   width: 100px;
   height: 100px;
   margin-right: 10px;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .profile__image:hover {
-    transform: scale(1.2);
-    transition: all 0.2s ease-in-out;
-  }
 }
 
 .profile__details {
@@ -400,17 +392,10 @@ h1 {
 
 .social__link {
   display: flex;
-  font-weight: 500;
+  font-weight: 400;
   align-items: center;
   text-decoration: none;
   color: var(--text-color);
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .social__link:hover {
-    transform: translateY(-5px);
-    transition: all 0.2s ease-in;
-  }
 }
 
 /* Skillset */
