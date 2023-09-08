@@ -180,7 +180,7 @@ a:visited {
   a:hover {
     color: var(--primary-color);
     transform: translateY(-5px);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-out;
   }
 }
 
@@ -409,7 +409,7 @@ h1 {
 @media (hover: hover) and (pointer: fine) {
   .social__link:hover {
     transform: translateY(-5px);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in;
   }
 }
 
@@ -417,13 +417,6 @@ h1 {
 
 .skillset {
   text-align: left;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .skill:hover {
-    transform: translateY(-5px);
-    transition: all 0.2s ease-in-out;
-  }
 }
 
 .skill__name {
