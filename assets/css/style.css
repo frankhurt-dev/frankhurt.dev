@@ -47,7 +47,6 @@
 
   .skill {
     display: flex;
-    align-items: center;
     flex-direction: column;
     font-weight: 500;
     padding: 10px;
