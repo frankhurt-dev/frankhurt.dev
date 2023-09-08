@@ -365,21 +365,18 @@ h1 {
 /* About */
 
 .name {
-  text-align: center;
+  text-align: left;
   font-size: var(--mb-7);
   line-height: 1;
 }
 
 .about {
   display: flex;
-  text-align: center;
-  align-items: center;
+  text-align: left;
 }
 
 .social {
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: 30px;
   gap: var(--mb-4);
   width: 100%;
