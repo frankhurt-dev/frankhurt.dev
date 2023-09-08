@@ -145,8 +145,8 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   line-height: 1.2;
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
 }
 
 * {
