@@ -261,12 +261,12 @@ a:active {
   margin-right: 10px;
 }
 
-/* @media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
   .profile__image:hover {
     transform: scale(1.2);
-    transition: all 0.2s linear;
+    transition: all 0.2s ease-in-out;
   }
-} */
+}
 
 .profile__details {
   display: flex;
@@ -409,7 +409,7 @@ h1 {
 @media (hover: hover) and (pointer: fine) {
   .social__link:hover {
     transform: translateY(-5px);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
   }
 }
 
@@ -422,7 +422,7 @@ h1 {
 @media (hover: hover) and (pointer: fine) {
   .skill:hover {
     transform: translateY(-5px);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
   }
 }
 
@@ -438,13 +438,6 @@ h1 {
   text-align: left;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .experience__title:hover {
-    transform: translateY(-5px);
-    transition: all 0.2s ease;
-  }
-}
-
 .experience__company {
   color: #c3c3c3;
   padding-bottom: 10px;
@@ -456,31 +449,7 @@ h1 {
   text-align: left;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .education__title:hover {
-    transform: translateY(-5px);
-    transition: all 0.2s ease;
-  }
-}
-
 .education__institute {
-  color: #c3c3c3;
-}
-
-/* Courses */
-
-.courses {
-  text-align: left;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .course__title:hover {
-    transform: translateY(-5px);
-    transition: all 0.2s ease;
-  }
-}
-
-.course__institute {
   color: #c3c3c3;
 }
 
